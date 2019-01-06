@@ -6,6 +6,6 @@ import data from "./data/recipes"
 window.React = React
 
 render(
-	<Menu recipes={data} />,
-	document.getElementById("react-container")
+  <Menu recipes={data} />,
+  document.getElementById("react-container")
 )
